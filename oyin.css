@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    position: relative;
+    background-color: #408d47;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    animation: color 12 infinite;
+    transition: 0.5s,05s;
+}
+@keyframes color {
+    0%{
+        background-color: #6c906f;
+    }
+    20%{
+        background-color: rgb(36, 151, 151);
+    }
+    40%{
+        background-color: rgb(47, 100, 140);
+    }
+    50%{
+        background-color: rgb(175, 19, 19);
+    }
+}
+
+div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(237, 214, 214);
+    transition: 0.5s;
+}
+div:hover{
+    border-radius: 13px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    transition: .7s;
+    position: relative;
+    border-radius: 50px;
+}
